@@ -6,6 +6,6 @@ public class HomePageTests extends BaseTest {
     @Test
     public void validateHomePageTitle() {
         String pTitle = homePage.getPageTitle();
-        assertTrue(pTitle.contains("Cloud, Computers, App & Gaming"), "Page title did not include expected text - "+ pTitle);
+        assertTrue(pTitle.contains("Computers"), "Page title did not include expected text - "+ pTitle);
     }
 }
